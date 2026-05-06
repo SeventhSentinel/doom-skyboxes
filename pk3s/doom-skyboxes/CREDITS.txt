@@ -1,0 +1,11 @@
+Original assets: iD Software
+
+Doom I+II+Final Doom skybox conversions: Ezepov https://forum.zdoom.org/viewtopic.php?t=53873
+
+Modified by SeventhSentinel:
+Doom 2 SKY1 (Removed distracting green pixels in 01_UP)
+Doom 2 SKY3 (Resized to match the rest, adjusted to look more faithful)
+Plutonia SKY3 (Resized to match the rest)
+TNT Sky1 (General polish)
+
+Master Levels skybox conversions: SeventhSentinel
