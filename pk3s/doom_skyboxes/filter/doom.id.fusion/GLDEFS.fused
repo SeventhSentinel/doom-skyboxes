@@ -29,7 +29,7 @@ skybox DSky3
 "skybox/doom1/03_DN.png"
 }
 
-skybox DSky4
+skybox Sky4
 {
 "skybox/doom1/04_FR.png"
 "skybox/doom1/04_LF.png"
