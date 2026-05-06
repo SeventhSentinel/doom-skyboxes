@@ -2,6 +2,7 @@
 Mods for [UZDoom](https://github.com/UZDoom/UZDoom) that replace 2D sky textures with 3D GLDEFS-based cubemaps
 
 Code license: MIT
+
 Asset license: CC BY-NC-SA 4.0
 
 <img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/aeb0ed7d-b053-4ad9-a88c-78fe0de748bc" />
