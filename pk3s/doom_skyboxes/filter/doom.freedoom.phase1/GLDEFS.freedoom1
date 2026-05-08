@@ -1,11 +1,11 @@
-skybox Sky1
+skybox Sky1 fliptop
 {
-"skybox/doom1/01_FR.png"
-"skybox/doom1/01_LF.png"
-"skybox/doom1/01_BK.png"
-"skybox/doom1/01_RT.png"
-"skybox/doom1/01_UP.png"
-"skybox/doom1/01_DN.png"
+"skybox/freedoom/1_1N.png"
+"skybox/freedoom/1_1E.png"
+"skybox/freedoom/1_1S.png"
+"skybox/freedoom/1_1W.png"
+"skybox/freedoom/1_1U.png"
+"skybox/freedoom/1_1D.png"
 }
 
 skybox Sky2
