@@ -1,0 +1,9 @@
+skybox Sky1 fliptop
+{
+"skybox/chex3/1NS.png"
+"skybox/chex3/1EW.png"
+"skybox/chex3/1NS.png"
+"skybox/chex3/1EW.png"
+"skybox/chex3/1U.png"
+"skybox/chex3/1D.png"
+}
