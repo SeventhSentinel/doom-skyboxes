@@ -21,7 +21,7 @@ skybox Sky2 fliptop
 // 3EWe = 3EWf, 3EWg
 // 3NSa = 3NSb, 3NSh
 
-skybox Sky3A fliptop
+skybox CJSky3A fliptop
 {
 "skybox/chex3/3NSa.png"
 "skybox/chex3/3EWa.png"
@@ -31,7 +31,7 @@ skybox Sky3A fliptop
 "skybox/chex3/3D.png"
 }
 
-skybox Sky3B fliptop
+skybox CJSky3B fliptop
 {
 "skybox/chex3/3NSa.png"
 "skybox/chex3/3EWb.png"
@@ -41,7 +41,7 @@ skybox Sky3B fliptop
 "skybox/chex3/3D.png"
 }
 
-skybox Sky3C fliptop
+skybox CJSky3C fliptop
 {
 "skybox/chex3/3NSc.png"
 "skybox/chex3/3EWc.png"
@@ -51,7 +51,7 @@ skybox Sky3C fliptop
 "skybox/chex3/3D.png"
 }
 
-skybox Sky3D fliptop
+skybox CJSky3D fliptop
 {
 "skybox/chex3/3NSd.png"
 "skybox/chex3/3EWd.png"
@@ -61,7 +61,7 @@ skybox Sky3D fliptop
 "skybox/chex3/3D.png"
 }
 
-skybox Sky3E fliptop
+skybox CJSky3E fliptop
 {
 "skybox/chex3/3NSe.png"
 "skybox/chex3/3EWe.png"
@@ -71,7 +71,7 @@ skybox Sky3E fliptop
 "skybox/chex3/3D.png"
 }
 
-skybox Sky3F fliptop
+skybox CJSky3F fliptop
 {
 "skybox/chex3/3NSf.png"
 "skybox/chex3/3EWe.png"
@@ -81,7 +81,7 @@ skybox Sky3F fliptop
 "skybox/chex3/3D.png"
 }
 
-skybox Sky3G fliptop
+skybox CJSky3G fliptop
 {
 "skybox/chex3/3NSg.png"
 "skybox/chex3/3EWe.png"
@@ -91,7 +91,7 @@ skybox Sky3G fliptop
 "skybox/chex3/3D.png"
 }
 
-skybox Sky3H fliptop
+skybox CJSky3H fliptop
 {
 "skybox/chex3/3NSa.png"
 "skybox/chex3/3EWh.png"
