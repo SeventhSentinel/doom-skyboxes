@@ -1,9 +1,29 @@
-skybox Sky1 Fliptop
+skybox Sky1
 {
 "skybox/heretic/1N.png"
 "skybox/heretic/1E.png"
 "skybox/heretic/1S.png"
 "skybox/heretic/1W.png"
-"skybox/heretic/1U.png"
-"skybox/heretic/1D.png"
+"skybox/heretic/1UD.png"
+"skybox/heretic/1UD.png"
+}
+
+skybox Sky2
+{
+"skybox/heretic/2N.png"
+"skybox/heretic/2E.png"
+"skybox/heretic/2S.png"
+"skybox/heretic/2W.png"
+"skybox/heretic/2UD.png"
+"skybox/heretic/2UD.png"
+}
+
+skybox Sky5
+{
+"skybox/heretic/5N.png"
+"skybox/heretic/5E.png"
+"skybox/heretic/5S.png"
+"skybox/heretic/5W.png"
+"skybox/heretic/1UD.png"
+"skybox/heretic/1UD.png"
 }
