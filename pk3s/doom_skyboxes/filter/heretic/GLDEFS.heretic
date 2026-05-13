@@ -1,0 +1,9 @@
+skybox Sky1 Fliptop
+{
+"skybox/heretic/1N.png"
+"skybox/heretic/1E.png"
+"skybox/heretic/1S.png"
+"skybox/heretic/1W.png"
+"skybox/heretic/1U.png"
+"skybox/heretic/1D.png"
+}
