@@ -1,9 +1,29 @@
 skybox Sky1 fliptop
 {
-"skybox/chex3/1NS.png"
-"skybox/chex3/1EW.png"
-"skybox/chex3/1NS.png"
-"skybox/chex3/1EW.png"
-"skybox/chex3/1U.png"
-"skybox/chex3/1D.png"
+1NS
+1EW
+1NS
+1EW
+1U
+1D
+}
+
+skybox Sky2 fliptop
+{
+2NS
+2EW
+2NS
+2EW
+2U
+1D
+}
+
+skybox CJSky3A fliptop
+{
+3NSa
+3EWa
+3NSa
+3EWa
+3Ua
+3D
 }
