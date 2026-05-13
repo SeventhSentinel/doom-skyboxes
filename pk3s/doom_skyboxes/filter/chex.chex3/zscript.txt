@@ -1,0 +1,105 @@
+////===========================================================================
+//
+// SevBox
+//
+// ZScript code: Copyright (C) 2026 SeventhSentinel
+//
+// License: MIT
+//
+//===========================================================================
+
+// You can't put animated textures in a skybox, so we're gonna do hacks
+
+version "4.14"
+
+class SevBoxHandler : EventHandler
+{
+	override void PlayerEntered(PlayerEvent e)
+	{
+		SetupSevBox(e);
+	}
+
+	void SetupSevBox(PlayerEvent e)
+	{
+		PlayerInfo plr = players[e.PlayerNumber];
+		if (plr && plr.mo)
+			plr.mo.A_GiveInventory("SevBoxAnimator");
+	}
+}
+
+class SevBoxAnimator : Inventory
+{
+	Default
+	{
+		Inventory.MaxAmount 1;
+		+Inventory.UNDROPPABLE
+		+Inventory.UNTOSSABLE
+	}
+	
+	int timer;
+	int tex;
+
+	override void DoEffect(void)
+	{
+		if (Owner.player)
+		{
+			Animate();
+		}
+	}
+
+	void Animate(void)
+	{
+		if (Level.skytexture1 == TexMan.CheckForTexture("CJSKY3A"))
+		{
+			Level.ChangeSky(
+				TexMan.CheckForTexture("SKY3A", TexMan.Type_Any),
+				TexMan.CheckForTexture("SKY3A", TexMan.Type_Any)
+			);
+		}
+		
+		if (timer < 3)
+		{
+			timer++;
+			return;
+		}
+
+		timer = 0;
+		tex++;
+		
+		switch(tex)
+		{
+			case 0:
+				Level.ChangeSky(TexMan.CheckForTexture("SKY3A"), TexMan.CheckForTexture("SKY3A"));
+				break;
+
+			case 1:
+				Level.ChangeSky(TexMan.CheckForTexture("SKY3B"), TexMan.CheckForTexture("SKY3B"));
+				break;
+
+			case 2:
+				Level.ChangeSky(TexMan.CheckForTexture("SKY3C"), TexMan.CheckForTexture("SKY3C"));
+				break;
+
+			case 3:
+				Level.ChangeSky(TexMan.CheckForTexture("SKY3D"), TexMan.CheckForTexture("SKY3D"));
+				break;
+
+			case 4:
+				Level.ChangeSky(TexMan.CheckForTexture("SKY3E"), TexMan.CheckForTexture("SKY3E"));
+				break;
+
+			case 5:
+				Level.ChangeSky(TexMan.CheckForTexture("SKY3F"), TexMan.CheckForTexture("SKY3F"));
+				break;
+
+			case 6:
+				Level.ChangeSky(TexMan.CheckForTexture("SKY3G"), TexMan.CheckForTexture("SKY3G"));
+				break;
+
+			case 7:
+				Level.ChangeSky(TexMan.CheckForTexture("SKY3H"), TexMan.CheckForTexture("SKY3H"));
+				tex = 0;
+				break;
+		}
+	}
+}
