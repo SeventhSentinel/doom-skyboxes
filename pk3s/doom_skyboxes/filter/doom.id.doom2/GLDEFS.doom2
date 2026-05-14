@@ -29,7 +29,6 @@ skybox Sky3
 }
 
 // Legacy of Rust
-// I can only really do one of these but that's better than zero
 skybox SKYX1
 {
 "skybox/ml/01_ML.png"
@@ -38,6 +37,26 @@ skybox SKYX1
 "skybox/ml/01_ML.png"
 "skybox/ml/01_ML.png"
 "skybox/ml/01_ML.png"
+}
+
+skybox SkyX3
+{
+"skybox/lor/X3N.png"
+"skybox/lor/X3E.png"
+"skybox/lor/X3S.png"
+"skybox/lor/X3W.png"
+"skybox/lor/X3UD.png"
+"skybox/lor/X3UD.png"
+}
+
+skybox SkyZ4
+{
+"skybox/lor/Z4N.png"
+"skybox/lor/Z4E.png"
+"skybox/lor/Z4S.png"
+"skybox/lor/Z4W.png"
+"skybox/lor/Z4UD.png"
+"skybox/lor/Z4UD.png"
 }
 
 // Ult. Doom dupes from Legacy of Rust
