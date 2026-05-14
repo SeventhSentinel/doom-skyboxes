@@ -1,3 +1,8 @@
+# THIS REPO HAS MOVED
+
+All further updates will go to [SevBox](https://github.com/SeventhSentinel/sevbox)!
+
+---
 # Doom-Skyboxes
 Mods for [UZDoom](https://github.com/UZDoom/UZDoom) that replace 2D sky textures with 3D GLDEFS-based cubemaps
 
