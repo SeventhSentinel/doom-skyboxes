@@ -70,6 +70,37 @@ skybox SKY3
 "skybox/doom2/03_DN.png"
 }
 
+// Legacy of Rust
+skybox SKYX1
+{
+"skybox/ml/01_ML.png"
+"skybox/ml/01_ML.png"
+"skybox/ml/01_ML.png"
+"skybox/ml/01_ML.png"
+"skybox/ml/01_ML.png"
+"skybox/ml/01_ML.png"
+}
+
+skybox SkyX3
+{
+"skybox/lor/X3N.png"
+"skybox/lor/X3E.png"
+"skybox/lor/X3S.png"
+"skybox/lor/X3W.png"
+"skybox/lor/X3UD.png"
+"skybox/lor/X3UD.png"
+}
+
+skybox SkyZ4
+{
+"skybox/lor/Z4N.png"
+"skybox/lor/Z4E.png"
+"skybox/lor/Z4S.png"
+"skybox/lor/Z4W.png"
+"skybox/lor/Z4UD.png"
+"skybox/lor/Z4UD.png"
+}
+
 // Master Levels
 skybox MSKY1
 {
